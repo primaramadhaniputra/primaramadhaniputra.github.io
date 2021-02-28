@@ -1,0 +1,80 @@
+/* css for navbar */
+a {
+  font-size: 1.1rem;
+}
+
+.navbar {
+  opacity: 0;
+  transition: 2s;
+}
+
+/* end css for navbar */
+
+/* css for jumbotron */
+
+.jumbotron {
+  background-color: #e2edff;
+}
+section#hero img {
+  opacity: 0;
+  transition: 1.5s;
+  transform: translateY(-50px);
+}
+
+section#hero .fs-3 {
+  transform: translateX(-50px);
+  transition: 1s;
+  opacity: 0;
+}
+section#hero .fs-5 {
+  transform: translateX(50px);
+  transition: 1s;
+  opacity: 0;
+}
+
+/* end css for jumbtron  */
+
+/* css for about */
+
+section#about .first-about {
+  transition: 1s;
+  transform: translateX(-70px);
+  opacity: 0;
+}
+section#about .second-about {
+  transition: 1s;
+  transform: translateX(70px);
+  opacity: 0;
+}
+section#projects {
+  background-color: #e2edff;
+}
+
+/* end css for about */
+
+/* css for projects */
+.card img {
+  /* width: 20rem; */
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  transition: 2s;
+  opacity: 0;
+  transform: translateX(-50px);
+}
+/* end css for projects */
+
+/* css for footer */
+footer {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* css for modal */
+
+/*  */
