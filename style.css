@@ -35,6 +35,9 @@ section#hero .fs-5 {
 /* end css for jumbtron  */
 
 /* css for about */
+section#about {
+  overflow: hidden;
+}
 
 section#about .first-about {
   transition: 1s;
